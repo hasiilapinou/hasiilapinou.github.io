@@ -1,0 +1,24 @@
+<div class="dropdown">
+  <button
+    class="btn btn-secondary dropdown-toggle"
+    type="button"
+    id="langSwitcher"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    {% if page.lang == "en" %}
+      English
+    {% elsif page.lang == "de" %}
+      Deutsch
+    {% elsif page.lang == "zh" %}
+      中文
+    {% else %}
+      Language
+    {% endif %}
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="langSwitcher">
+    <li><a class="dropdown-item" href="{{ '/' | relative_url }}">English</a></li>
+    <li><a class="dropdown-item" href="{{ '/de/' | relative_url }}">Deutsch</a></li>
+    <li><a class="dropdown-item" href="{{ '/zh/' | relative_url }}">中文</a></li>
+  </ul>
+</div>
