@@ -45,6 +45,9 @@
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
+        
+          {% include lang-switcher.liquid %}
+
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
