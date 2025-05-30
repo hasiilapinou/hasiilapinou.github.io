@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang }}">
+<html lang="{{ page.lang | default: site.lang }}">
   <!-- Head -->
   <head>
     {% if page.redirect %}
@@ -52,5 +52,6 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
