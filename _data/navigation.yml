@@ -1,0 +1,32 @@
+en:
+  - title: "Home"
+    url: "/"
+    nav_order: 1
+  - title: "Blog"
+    url: "/blog/"
+    nav_order: 2
+  - title: "About"
+    url: "/about/"
+    nav_order: 3
+
+de:
+  - title: "Startseite"
+    url: "/de/"
+    nav_order: 1
+  - title: "Blog"
+    url: "/de/blog/"
+    nav_order: 2
+  - title: "Über uns"
+    url: "/de/about/"
+    nav_order: 3
+
+zh:
+  - title: "主页"
+    url: "/zh/"
+    nav_order: 1
+  - title: "博客"
+    url: "/zh/blog/"
+    nav_order: 2
+  - title: "关于我们"
+    url: "/zh/about/"
+    nav_order: 3
