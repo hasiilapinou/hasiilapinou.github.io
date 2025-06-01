@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Language
+title: Language 🌐
 nav: true
 nav_order: 8
 dropdown: true
