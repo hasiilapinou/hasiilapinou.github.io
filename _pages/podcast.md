@@ -3,7 +3,7 @@ layout: default
 permalink: /podcast/
 title: Podcast
 nav: true
-nav_order: 3
+nav_order: 1
 pagination:
   enabled: true
   collection: posts
