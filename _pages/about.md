@@ -28,6 +28,6 @@ latest_posts:
 Here you'll find bits of my creations and reflections — in voice, visuals, words, and books.
 I’ll also be sharing small pieces of everyday life over time: lazy-day recipes, travel notes, quiet musings, bookshelf finds, and more.
 
-🌱 This site is still growing, with more to come.
+🌱 The website is under construction and will be updated gradually.
 Thanks for stopping by — I hope you’ll visit again soon. 🌙
 
